@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(77, 153, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#hobbies{
+    color: rgb(188, 142, 142);
+    font-size: 30px;
+}
+
+.projects{
+    color: lightskyblue;
+    background-color: lightgreen;
+    
+}

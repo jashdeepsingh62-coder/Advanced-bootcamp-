@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .product-section {
+            display: flex;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            width: 220px;
+            background: #fafafa;
+            text-align: center;
+        }
+        .product-card img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .product-title {
+            font-size: 1.1em;
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+        }
+        .product-price {
+            color: #b12704;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The beginning is the end</h1>
+    </header>
+    <hr>
+
+    <h2>Featured Products</h2>
+    <div class="product-section">
+        <div class="product-card">
+            <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&w=400" alt="Forest">
+            <div class="product-title">Nature Forest Painting</div>
+            <div class="product-price">₹999,999</div>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/61k0gpxQwCL._SL1080_.jpg">
+            <div class="product-title">Modern Laptop</div>
+            <div class="product-price">₹1,39,999</div>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/81B1mGb5QPL._SL1500_.jpg" alt="Book">
+            <div class="product-title">Bestseller Book</div>
+            <div class="product-price">₹299,999</div>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <hr>
+
+    <h2>Categories</h2>
+    <ul>
+        <li>Electronics</li>
+        <li>Books</li>
+        <li>Fashion</li>
+    </ul>
+    <hr>
+
+    <footer>
+        <h3>The end is the beginning</h3>
+    </footer>
+</body>
+</html>
